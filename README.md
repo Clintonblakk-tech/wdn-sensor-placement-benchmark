@@ -1,15 +1,18 @@
-﻿# Comparative Evaluation of Deep Reinforcement Learning and Genetic Algorithms for Sensor Placement in Water Distribution Networks
+# AI-Driven Sensor Placement for Leak and Contamination Monitoring in Urban Water Distribution Networks
+
+*A Comparative Evaluation of Reinforcement Learning and Genetic Algorithms*
 
 ## Overview
 
-This repository contains research code, experimental outputs, and statistical analyses for comparing four sensor-placement approaches in water distribution networks:
+This repository contains the datasets, source code, experimental outputs and statistical analyses supporting the study:
 
-- Deep Q-Network (DQN)
-- Proximal Policy Optimization (PPO)
-- Deep Deterministic Policy Gradient (DDPG)
-- Genetic Algorithm (GA)
+**"AI-Driven Sensor Placement for Leak and Contamination Monitoring in Urban Water Distribution Networks: A Comparative Evaluation of Reinforcement Learning and Genetic Algorithms."**
 
-The study evaluates graph-based sensor placement using the Net3, C-Town, and Richmond benchmark networks.
+The study evaluates Deep Q-Networks (DQN), Proximal Policy Optimisation (PPO), Deep Deterministic Policy Gradient (DDPG) and a Genetic Algorithm (GA) as decision-support approaches for sensor deployment in urban water distribution networks under constrained monitoring budgets.
+
+Benchmark experiments were conducted using the Net3, C-Town and Richmond water distribution networks. Sensor-placement configurations were evaluated using graph-based spatial coverage, leak-detection and contamination-detection metrics, together with statistical analyses performed under matched experimental conditions.
+
+The repository provides the materials required to reproduce the reported results and to support further research in smart water monitoring, urban water infrastructure resilience and AI-driven sensor deployment.
 
 ## Experimental Design
 
@@ -51,7 +54,7 @@ The repository is being prepared to support reproducibility. Before running an e
 
 The four-method comparison and corrected statistical analysis use existing evaluation outputs; they do not retrain the algorithms.
 
-Python dependencies will be documented in equirements.txt after the dependencies of the selected scripts have been checked.
+Python dependencies will be documented in requirements.txt after the dependencies of the selected scripts have been checked.
 
 ## Important Limitations
 
@@ -67,8 +70,17 @@ The original code covered by this repository is released under the MIT License. 
 
 ## Citation
 
-A permanent citation and DOI will be added after the research repository has been published and its versioned release has been archived.
+The research software and supporting materials are archived on Zenodo:
 
-## Author
+**DOI:** https://doi.org/10.5281/zenodo.23425794
 
-Clinton Blakk
+## Authors and Affiliations
+
+**Clinton Blakk¹**  
+University of Johannesburg, Auckland Park, South Africa.
+
+**Nnamdi Nwulu²**  
+University of Johannesburg, Auckland Park, South Africa.
+
+**Esther Titilayo Akinlabi³**  
+Walter Scott, Jr. College of Engineering, Colorado State University, Fort Collins, USA.
